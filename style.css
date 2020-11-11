@@ -149,54 +149,29 @@ input {
 }
 
 
-.container {
-/*	background-color: #fff;*/
-/*	border-radius: 10px;*/
-/*  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
-/*
-	position: relative;
-	overflow: hidden;
-*/
-/*	width: 768px;*/
-	
-/*	height: 50%;*/
-}
 .login{
 /*    display:flex;*/
+  margin-top: 200px;
      width: 100%;
-    height:100%;
+    height:400px;
     
 }
 .log-in-container {
-/*
-	position: absolute;
-	top: 0;
-*/
-/*    width:50%;*/
-	height: 100%;
+    
     background-color: #fff;
     	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-   
+    height:100%;
     z-index: 2;
 }
 
-.log-in-container {
-/*	left: 0;*/
-	
-/*	z-index: 2;*/
-}
+
 
 
 .overlay-container {
-/*
-	position: absolute;
-	top: 0;
-*/
-/*	left: 50%;*/
+
     background-color: #fff;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-/*	 width:50%;*/
-	height: 410px;
+     height:100%;
     display:table;
 }
 
@@ -205,9 +180,11 @@ input {
     display:table-cell;
      
 	background-image: url("BACKground3.jpg");
+   
+   
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 0 0;
+/*	background-position: 0 0;*/
 	color: #FFFFFF;
 /*
 	position: relative;
