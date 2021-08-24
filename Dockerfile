@@ -1,5 +1,5 @@
-FROM nginx:stable-alpine
+FROM node:12-alpine
 COPY . /var/www/html
 WORKDIR /var/www/html
 EXPOSE 80
-#CMD ["nginx", "-g", "daemon off;"]
+CMD ["node", "/var/www/html/index.html"]
